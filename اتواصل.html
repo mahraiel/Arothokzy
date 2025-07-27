@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>تواصل معنا</title>
+  <style>
+    body {
+      font-family: 'Cairo', sans-serif;
+      background-color: #fdf8f2;
+      direction: rtl;
+      margin: 0;
+      padding: 0;
+      background-image: url("data:image/svg+xml;utf8,<svg width='100' height='100' xmlns='http://www.w3.org/2000/svg'><text x='10' y='70' font-size='80' fill='rgba(122,88,58,0.05)'>✝</text></svg>");
+      background-repeat: repeat;
+    }
+
+    header {
+      background-color: #7a583a;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #7a583a;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      margin-bottom: 5px;
+      font-weight: bold;
+      color: #444;
+    }
+
+    input, textarea {
+      margin-bottom: 20px;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    button {
+      background-color: #7a583a;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 6px;
+      font-size: 18px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #5e432e;
+    }
+
+    .info {
+      margin-top: 40px;
+      border-top: 1px solid #ddd;
+      padding-top: 20px;
+    }
+
+    .info p {
+      color: #555;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>تواصل معنا</h1>
+    <p>نسعد بتواصلك معنا لأي استفسارات أو طلبات صلاة أو تعليقات</p>
+  </header>
+
+  <div class="container">
+    <h2>نموذج التواصل</h2>
+    <form>
+      <label for="name">الاسم</label>
+      <input type="text" id="name" name="name" placeholder="اكتب اسمك الكامل" required>
+
+      <label for="email">البريد الإلكتروني</label>
+      <input type="email" id="email" name="email" placeholder="example@example.com" required>
+
+      <label for="message">الرسالة</label>
+      <textarea id="message" name="message" rows="5" placeholder="اكتب رسالتك هنا..." required></textarea>
+
+      <button type="submit">إرسال</button>
+    </form>
+
+    <div class="info">
+      <h2>معلومات التواصل</h2>
+      <p>📍 العنوان: الكاتدرائية المرقسية، العباسية، القاهرة، مصر</p>
+      <p>📧 البريد الإلكتروني: info@copticchurch.org</p>
+      <p>📞 الهاتف: 01234567890</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; ابانوب عصام ثابت سعدالله
+  </footer>
+
+</body>
+</html>
